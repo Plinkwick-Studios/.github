@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Player support
+    url: https://plinkwickstudios.com/
+    about: Playing one of our games? Email the support address on the game's page instead of opening an issue.
+  - name: Security problem
+    url: https://github.com/Plinkwick-Studios/.github/blob/main/SECURITY.md
+    about: Report it privately, not in an issue.

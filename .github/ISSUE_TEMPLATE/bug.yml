@@ -1,0 +1,30 @@
+name: Bug
+description: Something is broken or behaves wrong
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: And what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the tackle shop
+        2. Buy a rod while a cast is in the air
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: build
+    attributes:
+      label: Build or version
+      placeholder: Bloop 1.0.10 (Android, Pixel 7), or a commit hash, or a page address
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Logs, screenshots, or video

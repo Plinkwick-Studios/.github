@@ -1,0 +1,21 @@
+name: Task or idea
+description: A feature, polish pass, content drop, or chore
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What
+      description: What should exist or change when this is done.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: Who it is for, and why it is fun or needed.
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      placeholder: |
+        - [ ] ...
